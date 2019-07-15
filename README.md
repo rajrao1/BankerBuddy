@@ -13,3 +13,10 @@ Technical Features
 * Google Maps Integration
 * Google Places Integration
 * Integration of CocoaTouch with SwiftUI
+
+Development Environment
+* macOS Catalina Beta 4
+* Xcode 11 Beta 3
+* Swift 5.1
+* SwiftUI
+* iOS 13 Beta SDK

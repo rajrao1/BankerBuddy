@@ -1,0 +1,1222 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0C1885900810601510E0C632060FAF26 /* GooglePlaces */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2FC2AC47FDB0310285CE777F18CD1532 /* Build configuration list for PBXAggregateTarget "GooglePlaces" */;
+			buildPhases = (
+			);
+			dependencies = (
+				D42315111F400C0605ACCD6B5CAF2178 /* PBXTargetDependency */,
+			);
+			name = GooglePlaces;
+		};
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		07B0AF89E39B2E7B690F2C12496C95DE /* Pods-BankerBuddyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52484ED36ACC2B881B0E162B35245B28 /* Pods-BankerBuddyUITests-dummy.m */; };
+		10A86A65B45763EE2A0C1D15871C00AD /* Pods-BankerBuddyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D509B76208B7980E4AA94BC05EA0800D /* Pods-BankerBuddyTests-dummy.m */; };
+		1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BDA153C85145E966330E7BFA6DDAEEC /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C3C22116AE5D20554D3FFF8D16057 /* SwiftyJSON-dummy.m */; };
+		464450D037D17ED5EE2322E180A6A9F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5AE4019B0CE17DDA43747039CB74793B /* Pods-BankerBuddyTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6DC2E7CB89BD5217DC58D618104E493 /* Pods-BankerBuddyTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EFB2A32BE47B3D556F8349F62308354 /* Pods-BankerBuddyUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED66BB33BC7E818980137638EA37B6A /* Pods-BankerBuddyUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69BA747E183D146FCA9E62D28D7E7455 /* Pods-BankerBuddy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7F35E8C11EE6F52CD1579BCD5BEDB5 /* Pods-BankerBuddy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EAA4961972A5BC382C60704E8D5B79 /* SwiftyJSON.swift */; };
+		B02A145ED3DB85F8CCA1EDADC5A62B01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C45A6BC43AD2F2B14F97E8FD09A26983 /* Pods-BankerBuddy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 942B2619E59D4199F89AAB06CCE8C977 /* Pods-BankerBuddy-dummy.m */; };
+		CBEA2480A6D3CD88D22FB42105BFE21A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DADE216D486C7E8851532958D3535334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C9F8FE59DBFF629779326ABA1E333F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
+			remoteInfo = GooglePlaces;
+		};
+		6EB1C2DD30E6564FC3135C9E8002D8F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		8CA33CDE31D939F94019ACD277D42509 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8A2BCF1226830FB708B082F88685381;
+			remoteInfo = "Pods-BankerBuddy";
+		};
+		98059D113F2802E4BA79C8D61DADA565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		F0D072EDFEA6DE81E756C3EFFD284862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+		FF05A3023C24C204000DCF05795E549D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8A2BCF1226830FB708B082F88685381;
+			remoteInfo = "Pods-BankerBuddy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D5DDD36B4A00C99A3B075E45D88ACB1 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		1BDD82B4E95E72E666E398F4949414CB /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		1E3CFF4EDE3E2AC34DCF5DF4AB7CBFAB /* Pods-BankerBuddyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BankerBuddyUITests.modulemap"; sourceTree = "<group>"; };
+		2372E1B9D1B3FF3C6F55CCDD1ACD43AB /* GooglePlaces.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.xcconfig; sourceTree = "<group>"; };
+		299A9354ADFFB092FBF9F43C90130070 /* Pods-BankerBuddyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BankerBuddyTests.modulemap"; sourceTree = "<group>"; };
+		2AFD93831C50D1B037DB5A5E4CAA9901 /* Pods-BankerBuddyTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankerBuddyTests-Info.plist"; sourceTree = "<group>"; };
+		2D1AC9FE9E62DA5B9E8A017B229282D5 /* Pods-BankerBuddyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankerBuddyTests.release.xcconfig"; sourceTree = "<group>"; };
+		302256FB444AE66EE7FE383FE32C9E07 /* Pods-BankerBuddy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankerBuddy-Info.plist"; sourceTree = "<group>"; };
+		31C0114AC0D9B520615B7AEFA0F0A68E /* Pods-BankerBuddy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BankerBuddy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37EAA4961972A5BC382C60704E8D5B79 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
+		40DDC9DCC86ADD7E92F2443C71D2095A /* Pods-BankerBuddyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BankerBuddyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		451D665CAB4430553C9633D7F668A6CE /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
+		52484ED36ACC2B881B0E162B35245B28 /* Pods-BankerBuddyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BankerBuddyUITests-dummy.m"; sourceTree = "<group>"; };
+		5ED66C7BB84727802925DA71B0D16A93 /* Pods-BankerBuddyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankerBuddyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E999FAF4F787C251E17E7207763730E /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		722536606FC4449789C18FA98D840C7C /* Pods-BankerBuddy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankerBuddy-acknowledgements.plist"; sourceTree = "<group>"; };
+		759B88858875E72A64337815B610A8CD /* Pods-BankerBuddyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankerBuddyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DC8916A84A62676F2A4769C57C1D638 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		7ED66BB33BC7E818980137638EA37B6A /* Pods-BankerBuddyUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BankerBuddyUITests-umbrella.h"; sourceTree = "<group>"; };
+		89891CE37A4F7E1CDB12D181CC5273A0 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		8B1E152DE2909C056E13999D7367C92B /* Pods_BankerBuddyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BankerBuddyTests.framework; path = "Pods-BankerBuddyTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDA153C85145E966330E7BFA6DDAEEC /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		8E570A337E628711BB36DC4075A9EDD0 /* Pods-BankerBuddyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BankerBuddyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90723DFFAB5AE4DD4E41ACF796F813B5 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		909C5B5F23217D892CD75080F3C92514 /* Pods-BankerBuddyUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankerBuddyUITests-Info.plist"; sourceTree = "<group>"; };
+		92F3D6EB6AFCD91B6DE1E30A0B5EC080 /* Pods-BankerBuddyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankerBuddyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		935215AF66F19915749C6BBB7A893C05 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		942B2619E59D4199F89AAB06CCE8C977 /* Pods-BankerBuddy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BankerBuddy-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6DC2E7CB89BD5217DC58D618104E493 /* Pods-BankerBuddyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BankerBuddyTests-umbrella.h"; sourceTree = "<group>"; };
+		AC07E835CF96B178669BF45AF7213D0D /* Pods-BankerBuddy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BankerBuddy.modulemap"; sourceTree = "<group>"; };
+		B04B9315BA8763C24AB2384D466AB429 /* Pods-BankerBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankerBuddy.release.xcconfig"; sourceTree = "<group>"; };
+		B43C3C22116AE5D20554D3FFF8D16057 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		B7C01DCCE02778A43EF17E8B03387150 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		BA7F35E8C11EE6F52CD1579BCD5BEDB5 /* Pods-BankerBuddy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BankerBuddy-umbrella.h"; sourceTree = "<group>"; };
+		C905374E19A289EDC559183C810FD8E2 /* Pods-BankerBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankerBuddy.debug.xcconfig"; sourceTree = "<group>"; };
+		CE43D1A825DC6D6CAA8D7FDF02584404 /* GoogleMaps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.xcconfig; sourceTree = "<group>"; };
+		D509B76208B7980E4AA94BC05EA0800D /* Pods-BankerBuddyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BankerBuddyTests-dummy.m"; sourceTree = "<group>"; };
+		D9C94DF90F25C46C314B828D806A1F86 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		DABB5D84DEB8B0D0FD4BECE588388ED4 /* Pods-BankerBuddy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BankerBuddy-frameworks.sh"; sourceTree = "<group>"; };
+		DFA6F1CCF687CB720711D261850579CE /* Pods-BankerBuddyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankerBuddyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4113297AA61D392A2E53EADFE431CA0 /* Pods-BankerBuddyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankerBuddyTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E73EF01045C85F5A6EA56A8E531FD96E /* Pods-BankerBuddy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BankerBuddy-resources.sh"; sourceTree = "<group>"; };
+		EE5CAA4E7078D711AD33492F75838C27 /* Pods_BankerBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BankerBuddy.framework; path = "Pods-BankerBuddy.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03BE5F164C7095FDFB9520AA50B1BAC /* Pods_BankerBuddyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BankerBuddyUITests.framework; path = "Pods-BankerBuddyUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82EDC81DF00017EDAF13CA671BA37278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEA2480A6D3CD88D22FB42105BFE21A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464450D037D17ED5EE2322E180A6A9F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3590A45CCFFD873A537575672731085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADE216D486C7E8851532958D3535334 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFB10B4113BF664330CAA47040F4B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02A145ED3DB85F8CCA1EDADC5A62B01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		081F0B2AD4520D456722178E6DDCF747 /* Pods-BankerBuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E3CFF4EDE3E2AC34DCF5DF4AB7CBFAB /* Pods-BankerBuddyUITests.modulemap */,
+				8E570A337E628711BB36DC4075A9EDD0 /* Pods-BankerBuddyUITests-acknowledgements.markdown */,
+				DFA6F1CCF687CB720711D261850579CE /* Pods-BankerBuddyUITests-acknowledgements.plist */,
+				52484ED36ACC2B881B0E162B35245B28 /* Pods-BankerBuddyUITests-dummy.m */,
+				909C5B5F23217D892CD75080F3C92514 /* Pods-BankerBuddyUITests-Info.plist */,
+				7ED66BB33BC7E818980137638EA37B6A /* Pods-BankerBuddyUITests-umbrella.h */,
+				759B88858875E72A64337815B610A8CD /* Pods-BankerBuddyUITests.debug.xcconfig */,
+				92F3D6EB6AFCD91B6DE1E30A0B5EC080 /* Pods-BankerBuddyUITests.release.xcconfig */,
+			);
+			name = "Pods-BankerBuddyUITests";
+			path = "Target Support Files/Pods-BankerBuddyUITests";
+			sourceTree = "<group>";
+		};
+		3BD0B34E2B2F7F83124DE80CC4440E6C /* Pods-BankerBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				299A9354ADFFB092FBF9F43C90130070 /* Pods-BankerBuddyTests.modulemap */,
+				40DDC9DCC86ADD7E92F2443C71D2095A /* Pods-BankerBuddyTests-acknowledgements.markdown */,
+				E4113297AA61D392A2E53EADFE431CA0 /* Pods-BankerBuddyTests-acknowledgements.plist */,
+				D509B76208B7980E4AA94BC05EA0800D /* Pods-BankerBuddyTests-dummy.m */,
+				2AFD93831C50D1B037DB5A5E4CAA9901 /* Pods-BankerBuddyTests-Info.plist */,
+				A6DC2E7CB89BD5217DC58D618104E493 /* Pods-BankerBuddyTests-umbrella.h */,
+				5ED66C7BB84727802925DA71B0D16A93 /* Pods-BankerBuddyTests.debug.xcconfig */,
+				2D1AC9FE9E62DA5B9E8A017B229282D5 /* Pods-BankerBuddyTests.release.xcconfig */,
+			);
+			name = "Pods-BankerBuddyTests";
+			path = "Target Support Files/Pods-BankerBuddyTests";
+			sourceTree = "<group>";
+		};
+		4D134E5074089B5737FA259F4BEC8F9E /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				BA13420CB8F74188B7617D755B6AF37E /* Base */,
+				B4A235AE31A144E35D3FD7E08E43A17B /* Maps */,
+				65B3FA76E09FB11C9316D7E0A85B63A7 /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		5D1D6D9EBAFEBB7104F5BCE482CD5DBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DC8916A84A62676F2A4769C57C1D638 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65B3FA76E09FB11C9316D7E0A85B63A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE43D1A825DC6D6CAA8D7FDF02584404 /* GoogleMaps.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		6C65862C24A8514E07DAEDE6004AEAB6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E999FAF4F787C251E17E7207763730E /* SwiftyJSON.modulemap */,
+				D9C94DF90F25C46C314B828D806A1F86 /* SwiftyJSON.xcconfig */,
+				B43C3C22116AE5D20554D3FFF8D16057 /* SwiftyJSON-dummy.m */,
+				451D665CAB4430553C9633D7F668A6CE /* SwiftyJSON-Info.plist */,
+				B7C01DCCE02778A43EF17E8B03387150 /* SwiftyJSON-prefix.pch */,
+				8BDA153C85145E966330E7BFA6DDAEEC /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		757CC7A367BDBC9A032880C33712F31D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				935215AF66F19915749C6BBB7A893C05 /* GoogleMaps.framework */,
+				90723DFFAB5AE4DD4E41ACF796F813B5 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89F9E2FADC2409ACB4C46EB82D8CEC39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D134E5074089B5737FA259F4BEC8F9E /* GoogleMaps */,
+				9EEBBB69615B5239D6206DC591C0FF18 /* GooglePlaces */,
+				C66019461B3105716F3670658B43B2D9 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9EEBBB69615B5239D6206DC591C0FF18 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				5D1D6D9EBAFEBB7104F5BCE482CD5DBF /* Frameworks */,
+				ED0AAD346C6953DFD1B416F8109B11B5 /* Resources */,
+				C4224AA351571FB42FB104AD611CBDF5 /* Support Files */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		B41CC44E7359399DDEF0FE65E1CFA382 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D5DDD36B4A00C99A3B075E45D88ACB1 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B4A235AE31A144E35D3FD7E08E43A17B /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				757CC7A367BDBC9A032880C33712F31D /* Frameworks */,
+				B41CC44E7359399DDEF0FE65E1CFA382 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		BA13420CB8F74188B7617D755B6AF37E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BCCA0A08DF0E099E7F2B1349850DD1E9 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		BCCA0A08DF0E099E7F2B1349850DD1E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BDD82B4E95E72E666E398F4949414CB /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4224AA351571FB42FB104AD611CBDF5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2372E1B9D1B3FF3C6F55CCDD1ACD43AB /* GooglePlaces.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlaces";
+			sourceTree = "<group>";
+		};
+		C66019461B3105716F3670658B43B2D9 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				37EAA4961972A5BC382C60704E8D5B79 /* SwiftyJSON.swift */,
+				6C65862C24A8514E07DAEDE6004AEAB6 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				89F9E2FADC2409ACB4C46EB82D8CEC39 /* Pods */,
+				D00E0DC32297C1DC8E800C8B408FBB25 /* Products */,
+				FC931A1DA3DA45EB2008C3C07261BA80 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D00E0DC32297C1DC8E800C8B408FBB25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE5CAA4E7078D711AD33492F75838C27 /* Pods_BankerBuddy.framework */,
+				8B1E152DE2909C056E13999D7367C92B /* Pods_BankerBuddyTests.framework */,
+				F03BE5F164C7095FDFB9520AA50B1BAC /* Pods_BankerBuddyUITests.framework */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6BD0A5E60A612F7CF43F7F300CFD068 /* Pods-BankerBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				AC07E835CF96B178669BF45AF7213D0D /* Pods-BankerBuddy.modulemap */,
+				31C0114AC0D9B520615B7AEFA0F0A68E /* Pods-BankerBuddy-acknowledgements.markdown */,
+				722536606FC4449789C18FA98D840C7C /* Pods-BankerBuddy-acknowledgements.plist */,
+				942B2619E59D4199F89AAB06CCE8C977 /* Pods-BankerBuddy-dummy.m */,
+				DABB5D84DEB8B0D0FD4BECE588388ED4 /* Pods-BankerBuddy-frameworks.sh */,
+				302256FB444AE66EE7FE383FE32C9E07 /* Pods-BankerBuddy-Info.plist */,
+				E73EF01045C85F5A6EA56A8E531FD96E /* Pods-BankerBuddy-resources.sh */,
+				BA7F35E8C11EE6F52CD1579BCD5BEDB5 /* Pods-BankerBuddy-umbrella.h */,
+				C905374E19A289EDC559183C810FD8E2 /* Pods-BankerBuddy.debug.xcconfig */,
+				B04B9315BA8763C24AB2384D466AB429 /* Pods-BankerBuddy.release.xcconfig */,
+			);
+			name = "Pods-BankerBuddy";
+			path = "Target Support Files/Pods-BankerBuddy";
+			sourceTree = "<group>";
+		};
+		ED0AAD346C6953DFD1B416F8109B11B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89891CE37A4F7E1CDB12D181CC5273A0 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FC931A1DA3DA45EB2008C3C07261BA80 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6BD0A5E60A612F7CF43F7F300CFD068 /* Pods-BankerBuddy */,
+				3BD0B34E2B2F7F83124DE80CC4440E6C /* Pods-BankerBuddyTests */,
+				081F0B2AD4520D456722178E6DDCF747 /* Pods-BankerBuddyUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BDC111F6390991CC11C7CE95EDC1526 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BA747E183D146FCA9E62D28D7E7455 /* Pods-BankerBuddy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B176FD3617B7E37C24FBB71BDE56B072 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFB2A32BE47B3D556F8349F62308354 /* Pods-BankerBuddyUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A4AFB83B60D5BA5E26148AFCB8870 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE4019B0CE17DDA43747039CB74793B /* Pods-BankerBuddyTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AFFBD2C5A184771B78ACE0CB15498A7D /* Pods-BankerBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6463ED7AF5BF462185A8504F663A0055 /* Build configuration list for PBXNativeTarget "Pods-BankerBuddyTests" */;
+			buildPhases = (
+				FA0A4AFB83B60D5BA5E26148AFCB8870 /* Headers */,
+				48476A2A387FE21430BAE2C59E23E8A7 /* Sources */,
+				82EDC81DF00017EDAF13CA671BA37278 /* Frameworks */,
+				2D48FDE06A7ED1D755343E965126035E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EC0789C3F0B0CB257BB1859FA077D59 /* PBXTargetDependency */,
+			);
+			name = "Pods-BankerBuddyTests";
+			productName = "Pods-BankerBuddyTests";
+			productReference = 8B1E152DE2909C056E13999D7367C92B /* Pods_BankerBuddyTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */,
+				1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */,
+				AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */,
+				D098F7F0080A87A1F472C81FC2F85528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9F3AB8CAAB9A168A447FEBD24BDDB49 /* Pods-BankerBuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80F7A0A3BA44126A026348745AE1D2E6 /* Build configuration list for PBXNativeTarget "Pods-BankerBuddyUITests" */;
+			buildPhases = (
+				B176FD3617B7E37C24FBB71BDE56B072 /* Headers */,
+				A86BA6A06CEC62DB4FBD703DA4AD20DB /* Sources */,
+				B3590A45CCFFD873A537575672731085 /* Frameworks */,
+				3BE89271AB57CCC9111B6C1BEF3DB2FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB4A85036550DC846C795FE2AC2352BB /* PBXTargetDependency */,
+			);
+			name = "Pods-BankerBuddyUITests";
+			productName = "Pods-BankerBuddyUITests";
+			productReference = F03BE5F164C7095FDFB9520AA50B1BAC /* Pods_BankerBuddyUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8A2BCF1226830FB708B082F88685381 /* Pods-BankerBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D335F1F8E020026DEC63E5C2030DEF79 /* Build configuration list for PBXNativeTarget "Pods-BankerBuddy" */;
+			buildPhases = (
+				1BDC111F6390991CC11C7CE95EDC1526 /* Headers */,
+				5B074A74172825F6F2CC7D6C2998CAB7 /* Sources */,
+				CBFB10B4113BF664330CAA47040F4B0F /* Frameworks */,
+				6789CC6B3FDE045DC4A30D7525B1519B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				130B7032C5F35A5C9747CA407C65A4B8 /* PBXTargetDependency */,
+				464BF63A3D0D359558C5664807E8C482 /* PBXTargetDependency */,
+				D970C281CC69A7B8FA0AB500DB115DA4 /* PBXTargetDependency */,
+			);
+			name = "Pods-BankerBuddy";
+			productName = "Pods-BankerBuddy";
+			productReference = EE5CAA4E7078D711AD33492F75838C27 /* Pods_BankerBuddy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D00E0DC32297C1DC8E800C8B408FBB25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				0C1885900810601510E0C632060FAF26 /* GooglePlaces */,
+				F8A2BCF1226830FB708B082F88685381 /* Pods-BankerBuddy */,
+				AFFBD2C5A184771B78ACE0CB15498A7D /* Pods-BankerBuddyTests */,
+				D9F3AB8CAAB9A168A447FEBD24BDDB49 /* Pods-BankerBuddyUITests */,
+				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D48FDE06A7ED1D755343E965126035E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BE89271AB57CCC9111B6C1BEF3DB2FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6789CC6B3FDE045DC4A30D7525B1519B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D098F7F0080A87A1F472C81FC2F85528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */,
+				7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48476A2A387FE21430BAE2C59E23E8A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A86A65B45763EE2A0C1D15871C00AD /* Pods-BankerBuddyTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B074A74172825F6F2CC7D6C2998CAB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45A6BC43AD2F2B14F97E8FD09A26983 /* Pods-BankerBuddy-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86BA6A06CEC62DB4FBD703DA4AD20DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B0AF89E39B2E7B690F2C12496C95DE /* Pods-BankerBuddyUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		130B7032C5F35A5C9747CA407C65A4B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 98059D113F2802E4BA79C8D61DADA565 /* PBXContainerItemProxy */;
+		};
+		464BF63A3D0D359558C5664807E8C482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
+			targetProxy = 0C9F8FE59DBFF629779326ABA1E333F1 /* PBXContainerItemProxy */;
+		};
+		7EC0789C3F0B0CB257BB1859FA077D59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BankerBuddy";
+			target = F8A2BCF1226830FB708B082F88685381 /* Pods-BankerBuddy */;
+			targetProxy = 8CA33CDE31D939F94019ACD277D42509 /* PBXContainerItemProxy */;
+		};
+		D42315111F400C0605ACCD6B5CAF2178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 6EB1C2DD30E6564FC3135C9E8002D8F7 /* PBXContainerItemProxy */;
+		};
+		D970C281CC69A7B8FA0AB500DB115DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = F0D072EDFEA6DE81E756C3EFFD284862 /* PBXContainerItemProxy */;
+		};
+		EB4A85036550DC846C795FE2AC2352BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BankerBuddy";
+			target = F8A2BCF1226830FB708B082F88685381 /* Pods-BankerBuddy */;
+			targetProxy = FF05A3023C24C204000DCF05795E549D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3D0AB40B869839CA09D99DABF5C53C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 759B88858875E72A64337815B610A8CD /* Pods-BankerBuddyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BankerBuddyUITests/Pods-BankerBuddyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BankerBuddyUITests/Pods-BankerBuddyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AA46832D8A16AA4E4811383B204D2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE43D1A825DC6D6CAA8D7FDF02584404 /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		590A8B4448116B858BF0A4C81CAB7724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F3D6EB6AFCD91B6DE1E30A0B5EC080 /* Pods-BankerBuddyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BankerBuddyUITests/Pods-BankerBuddyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BankerBuddyUITests/Pods-BankerBuddyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E2226BAF771B9AEEA8FE646C18E7879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C94DF90F25C46C314B828D806A1F86 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		907050E8ED96EF2CF04EC3D293E73BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2372E1B9D1B3FF3C6F55CCDD1ACD43AB /* GooglePlaces.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91EC8CC059C939E179690004A9DB66A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1AC9FE9E62DA5B9E8A017B229282D5 /* Pods-BankerBuddyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BankerBuddyTests/Pods-BankerBuddyTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BankerBuddyTests/Pods-BankerBuddyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98FECEA40B9EBA7D06DE5B5F89500B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B04B9315BA8763C24AB2384D466AB429 /* Pods-BankerBuddy.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BankerBuddy/Pods-BankerBuddy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BankerBuddy/Pods-BankerBuddy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3B09423D903D67F1939BAECB3AB6DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ED66C7BB84727802925DA71B0D16A93 /* Pods-BankerBuddyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BankerBuddyTests/Pods-BankerBuddyTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BankerBuddyTests/Pods-BankerBuddyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B510ABD4108A8803F8FAAE126D59F8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C905374E19A289EDC559183C810FD8E2 /* Pods-BankerBuddy.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BankerBuddy/Pods-BankerBuddy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BankerBuddy/Pods-BankerBuddy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE43D1A825DC6D6CAA8D7FDF02584404 /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC85D7712D8EE6E340F053BC38E1FB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2372E1B9D1B3FF3C6F55CCDD1ACD43AB /* GooglePlaces.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8F35927ECB754A46E0AC8C2BACAF32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C94DF90F25C46C314B828D806A1F86 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC2AC47FDB0310285CE777F18CD1532 /* Build configuration list for PBXAggregateTarget "GooglePlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907050E8ED96EF2CF04EC3D293E73BD9 /* Debug */,
+				DC85D7712D8EE6E340F053BC38E1FB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA46832D8A16AA4E4811383B204D2A4 /* Debug */,
+				C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F35927ECB754A46E0AC8C2BACAF32D /* Debug */,
+				6E2226BAF771B9AEEA8FE646C18E7879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6463ED7AF5BF462185A8504F663A0055 /* Build configuration list for PBXNativeTarget "Pods-BankerBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B09423D903D67F1939BAECB3AB6DEB /* Debug */,
+				91EC8CC059C939E179690004A9DB66A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80F7A0A3BA44126A026348745AE1D2E6 /* Build configuration list for PBXNativeTarget "Pods-BankerBuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0AB40B869839CA09D99DABF5C53C25 /* Debug */,
+				590A8B4448116B858BF0A4C81CAB7724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D335F1F8E020026DEC63E5C2030DEF79 /* Build configuration list for PBXNativeTarget "Pods-BankerBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B510ABD4108A8803F8FAAE126D59F8DF /* Debug */,
+				98FECEA40B9EBA7D06DE5B5F89500B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

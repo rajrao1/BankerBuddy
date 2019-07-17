@@ -68,5 +68,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>By accessing your location, this app can find your address for banking purposes</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>By accessing your location, this app can find your address for banking purposes</string>
 </dict>
 </plist>

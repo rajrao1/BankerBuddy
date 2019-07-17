@@ -15,11 +15,15 @@ class MapViewController: UIViewController {
 
     private let locationManager = CLLocationManager()
 
-    @IBOutlet weak var mapView: GMSMapView!
+   // @IBOutlet weak var mapView: GMSMapView!
+    var mapView: GMSMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        mapView = GMSMapView(frame: super.view.frame)
+        super.view.addSubview(mapView)
+        
         // Do any additional setup after loading the view, typically from a nib.
         self.locationManager.delegate = self
         self.locationManager.requestWhenInUseAuthorization()

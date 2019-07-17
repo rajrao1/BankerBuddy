@@ -13,8 +13,7 @@ struct ContentView : View {
  
     var body: some View {
         TabbedView(selection: $selection){
-          //  Text("Address Finder")
-            MapsViewController()
+            GoogleMapView()
                 .font(.title)
                 .tabItem {
                     Image("addressLocator")

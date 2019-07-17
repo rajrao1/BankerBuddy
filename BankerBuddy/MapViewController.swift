@@ -22,6 +22,7 @@ class MapViewController: UIViewController {
         super.viewDidLoad()
         
         mapView = GMSMapView(frame: super.view.frame)
+        mapView.delegate = self
         super.view.addSubview(mapView)
         
         // Do any additional setup after loading the view, typically from a nib.
@@ -34,6 +35,8 @@ class MapViewController: UIViewController {
         
         // self.appLoadAlert();
     }
+    
+
     
     func appLoadAlert () {
         
@@ -88,6 +91,11 @@ class MapViewController: UIViewController {
 //        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
 //        self.present(alert, animated: true)
 //    }
+    
+    // Add the search bar during launch
+    // Hide the search bar, when typing starts
+    // Replace it with Googel search bar
+    
 }
 
 // MARK: - CLLocationManagerDelegate
@@ -203,4 +211,14 @@ extension MapViewController: GMSAutocompleteViewControllerDelegate {
         UIApplication.shared.isNetworkActivityIndicatorVisible = false
     }
     
+}
+
+// MARK: - GMSMapViewDelegate
+extension MapViewController: GMSMapViewDelegate {
+    
+    func mapView(_ mapView: GMSMapView, didTapAt coordinate: CLLocationCoordinate2D) {
+print("didAt")
+        autocompleteClicked(UIBarButtonItem());
+
+    }
 }
